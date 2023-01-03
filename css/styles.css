@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat-Black", sans-serif;
+  text-align: center;
+}
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* SECTIONS */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+/* HEADINGS */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.6rem;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color: #707070;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+/* DOWNLOAD BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* TITLE SECTION */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* IMAGES */
+.phone-img {
+  margin-left: 9rem;
+  width: 17%;
+  transform: rotate(27deg);
+  position: absolute;
+  right: 22%;
+}
+/* FEATURES SECTION*/
+#features {
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.icons {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.icons:hover {
+  color: #ff4c68;
+}
+/* TESTIMONIAL SECTION */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image1 {
+  width: 27%;
+  border-radius: 5%;
+  margin: 25px;
+}
+.testimonial-image2 {
+  width: 11.3%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 40px 50px;
+}
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* FOOTER */
+.social-icon {
+  margin: 20px 10px;
+  size: 2rem;
+}
+@media (max-width: 1280px) {
+  #title {
+    text-align: center;
+  }
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+    width: 54%;
+    margin-left: 0;
+  }
+}
